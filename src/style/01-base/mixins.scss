@@ -1,0 +1,17 @@
+// Mixins Sylvan
+// Last update : 29/03/2021
+
+@mixin abs-center {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@mixin text-shorten {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+ }

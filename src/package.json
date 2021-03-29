@@ -9,8 +9,8 @@
     "build": "parcel build js/main.js"
   },
   "watchreload": {
-    "files": "**/*.php",
-    "reloadDelay": 0
+    "files": ["**/*.php", "*/**/*.scss"],
+    "reloadDelay": 400
   },
   "keywords": [],
   "author": "Jacot Sylvain",

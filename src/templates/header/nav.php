@@ -7,5 +7,5 @@
 ?>
 
 <nav>
-    <h2>Include your nav here</h2>
+    <h2>Type your nav here</h2>
 </nav>

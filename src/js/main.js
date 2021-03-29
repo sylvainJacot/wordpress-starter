@@ -1,5 +1,5 @@
 import "../style/main.scss";
-import {gsapTest} from "./gsap-test";
+import { gsapTest } from "./gsap-test";
 
 gsapTest();
 
