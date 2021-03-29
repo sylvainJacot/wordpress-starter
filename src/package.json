@@ -1,0 +1,26 @@
+{
+  "name": "silvano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch js/main.js --out-dir prod/",
+    "build": "parcel build js/main.js"
+  },
+  "watchreload": {
+    "files": "**/*.php",
+    "reloadDelay": 0
+  },
+  "keywords": [],
+  "author": "Jacot Sylvain",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-watch-reload": "^1.0.3",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "gsap": "^3.6.1"
+  }
+}
