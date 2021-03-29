@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "parcel watch js/main.js --out-dir prod/",
+    "watch": "rm -rf ./prod && rm -rf ./.cache && parcel watch js/main.js --out-dir prod/",
     "build": "parcel build js/main.js"
   },
   "watchreload": {
